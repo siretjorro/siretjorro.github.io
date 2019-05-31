@@ -20,8 +20,6 @@
         }
 
         .my-block {
-            padding-left: 10%;
-            padding-right: 10%;
             display: table-cell;
             vertical-align: middle;
         }
@@ -34,6 +32,7 @@
 
         function estonian() {
             document.body.innerHTML = document.body.innerHTML = `
+            <main>
             <div class="my-block"><br>
                 <button id="est" type="button" onclick="estonian()">eesti keel</button>
                 <button id="eng" type="button" onclick="english()">english</button><br>
@@ -70,48 +69,51 @@
                 <h1>Autojuhiload</h1>
 
                 B-kategooria, aastast 2016<br><br>
-            </div>`;
+            </div>
+            </main>`;
         }
 
         function english() {
             document.body.innerHTML = `
+            <main>
             <div class="my-block"><br>
                 <button id="est" type="button" onclick="estonian()">eesti keel</button>
                 <button id="eng" type="button" onclick="english()">english</button><br>
 
-                <h1>Siret Jorro English</h1>
-                07.02.1998<br>
+                <h1>Siret Jorro</h1>
+                07/02/1998<br>
                 Akadeemia tee 7/1-512B, Tallinn<br>
                 53038319<br>
                 siretjorro@gmail.com<br><br>
                 
-                Soovin leida eelistatavalt IT-alast tööd suveks, võib-olla ka edaspidiseks.<br>
+                I am looking for a job (preferrably in IT) for the summer.<br>
                 
-                <h1>Töökogemus</h1>
+                <h1>Work experience</h1>
                 
-                Olen töötanud peamiselt klienditeeninduses, nii kassapidajana külapoes kui baristana lennujaamas.<br>
+                I have previous experience in customer service, I have worked as a cashier and a barista.<br>
                 
-                <h1>Haridus</h1>
+                <h1>Education</h1>
                 
                 2018 - <br>
-                Tallinna Tehnikaülikool<br>
-                Bakalaureusekraad, informaatika<br><br>
+                Tallinn University of Technology<br>
+                Bachelor's degree, Computer Science<br><br>
         
                 2017 - 2018<br>
-                Tartu Ülikool<br>
-                Bakalaureusekraad, matemaatika<br>
-                (vahetasin pärast ühte aastat eriala informaatika vastu)<br>
+                University of Tartu<br>
+                Bachelor's degree, Mathematics<br>
+                (changed my major to Computer Science after one year)<br>
                 
-                <h1>Keeled</h1>
+                <h1>Language skills</h1>
 
-                Eesti keel - emakeel<br>
-                Inglise keel - suurepärane<br>
-                Vene keel - rahuldav<br>
+                Estonian - native language<br>
+                English - proficient<br>
+                Russian - beginner<br>
                 
-                <h1>Autojuhiload</h1>
+                <h1>Driver's license</h1>
 
-                B-kategooria, aastast 2016<br><br>
-            </div>`;
+                B-category, since 2016<br><br>
+            </div>
+            </main>`;
         }
     </script>
 </html>
