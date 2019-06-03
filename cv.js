@@ -53,7 +53,7 @@ function estonian() {
         </section>
 
         <section>
-            <a href="files/estonian.pdf" download>lae CV alla</a>
+            <a href="files/Siret_Jorro_estonian.pdf" download>lae CV alla</a>
         </section>
     </main>`;
 }
@@ -111,7 +111,7 @@ function english() {
         </section>
 
         <section>
-            <a href="files/english.pdf" download>download CV</a>
+            <a href="files/Siret_Jorro_english.pdf" download>download CV</a>
         </section>
     </main>`;
 }
