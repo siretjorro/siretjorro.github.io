@@ -51,6 +51,12 @@ function estonian() {
 
             B-kategooria, aastast 2016
         </section>
+
+        <section>
+            <form method="get" action="estonian.pdf">
+                <button type="submit">lae CV alla</button>
+            </form>
+        </section>
     </main>`;
 }
 
@@ -104,6 +110,12 @@ function english() {
             <h1>Driver's license</h1>
 
             B-category, since 2016
-        </section
+        </section>
+
+        <section>
+        <form method="get" action="estonian.pdf">
+            <button type="submit">download CV</button>
+        </form>
+    </section>
     </main>`;
 }
