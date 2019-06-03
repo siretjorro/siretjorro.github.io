@@ -16,7 +16,7 @@ function estonian() {
             53038319<br>
             siretjorro@gmail.com<br><br>
             
-            Soovin leida eelistatavalt IT-alast tööd suveks, võib-olla ka edaspidiseks.
+            Soovin leida eelistatavalt IT-alast tööd suveks, võimalusel ka edaspidiseks.
         </section>
         
         <section>
