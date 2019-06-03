@@ -11,10 +11,10 @@ function estonian() {
             <section>
                 <h1>Siret Jorro</h1>
 
-                07.02.1998<br/>
-                Akadeemia tee 7/1-512B, Tallinn<br/>
-                53038319<br/>
-                siretjorro@gmail.com<br/><br/>
+                👧 07.02.1998<br/>
+                🏠 Tallinn<br/>
+                📞 53038319<br/>
+                ✉️ siretjorro@gmail.com<br/><br/>
                 
                 Soovin leida eelistatavalt IT-alast tööd suveks, võimalusel ka edaspidiseks.
             </section>
@@ -45,6 +45,12 @@ function estonian() {
                 Inglise keel - suurepärane<br/>
                 Vene keel - rahuldav
             </section>
+
+            <section>
+                <h1>Oskused</h1>
+
+                Olen kodus programmeerimiskeeltega Python ja Java, olen arendanud veebirakendusi keeltes Javascript, PHP ja Node.js. Olen teinud rakendusi nii Androidile kui iOSile. Tunnen HTML-i ja CSS-i, oskan ümber käia andmebaasidega. Kasutan regulaarselt versioonihaldust ja Bashi.
+            </section>
             
             <section>
                 <h1>Autojuhiload</h1>
@@ -69,10 +75,10 @@ function english() {
             <section>
                 <h1>Siret Jorro</h1>
 
-                07/02/1998<br/>
-                Akadeemia tee 7/1-512B, Tallinn<br/>
-                53038319<br/>
-                siretjorro@gmail.com<br/><br/>
+                👧 07/02/1998<br/>
+                🏠 Tallinn<br/>
+                📞 53038319<br/>
+                ✉️ siretjorro@gmail.com<br/><br/>
                 
                 I am looking for a job (preferrably in IT) for the summer.
             </section>
@@ -102,6 +108,12 @@ function english() {
                 Estonian - native language<br/>
                 English - proficient<br/>
                 Russian - beginner
+            </section>
+
+            <section>
+                <h1>Technical skills</h1>
+
+                I know Python and Java and have created web applications in Javascript, PHP and Node.js. I have experience with building mobile applications for both Android and iOS. I am familiar with HTML and CSS and know my way around databases. I regularly use Git and Bash.
             </section>
             
             <section>
