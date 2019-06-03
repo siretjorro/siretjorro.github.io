@@ -53,9 +53,7 @@ function estonian() {
         </section>
 
         <section>
-            <form method="get" action="estonian.pdf">
-                <button type="submit">lae CV alla</button>
-            </form>
+            <a href="files/estonian.pdf" download>lae CV alla</a>
         </section>
     </main>`;
 }
@@ -113,9 +111,7 @@ function english() {
         </section>
 
         <section>
-        <form method="get" action="estonian.pdf">
-            <button type="submit">download CV</button>
-        </form>
-    </section>
+            <a href="files/english.pdf" download>download CV</a>
+        </section>
     </main>`;
 }
