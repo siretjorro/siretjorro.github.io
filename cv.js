@@ -16,7 +16,6 @@ function estonian() {
                 📞 53038319<br/>
                 ✉️ siretjorro@gmail.com<br/><br/>
                 
-                Soovin leida eelistatavalt IT-alast tööd suveks, võimalusel ka edaspidiseks.
             </section>
             
             <section>
@@ -68,8 +67,8 @@ function english() {
     document.body.innerHTML = `
         <main>
             <section><br/>
-                <button id="est" type="button" onclick="estonian()">eesti keel</button>
-                <button id="eng" type="button" onclick="english()">english</button>
+                <button id="est" type="button" onclick="estonian()">ee</button>
+                <button id="eng" type="button" onclick="english()">eng</button>
             </section>
 
             <section>
@@ -79,8 +78,6 @@ function english() {
                 🏠 Tallinn<br/>
                 📞 53038319<br/>
                 ✉️ siretjorro@gmail.com<br/><br/>
-                
-                I am looking for a job (preferrably in IT) for the summer.
             </section>
             
             <section>
