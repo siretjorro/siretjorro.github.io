@@ -4,8 +4,11 @@ function estonian() {
     document.body.innerHTML = `
         <main>
             <section><br/>
-                <button id="est" type="button" onclick="estonian()">ee</button>
-                <button id="eng" type="button" onclick="english()">eng</button>
+                <button type="button" onclick="estonian()">ee</button>
+                <button type="button" onclick="english()">eng</button>
+                <button type="button" onclick="location.href='https://github.com/siretjorro'">
+                    <i class="fa fa-github"></i>
+                </button>
             </section>
 
             <section>
@@ -65,8 +68,11 @@ function english() {
     document.body.innerHTML = `
         <main>
             <section><br/>
-                <button id="est" type="button" onclick="estonian()">ee</button>
-                <button id="eng" type="button" onclick="english()">eng</button>
+                <button type="button" onclick="estonian()">ee</button>
+                <button type="button" onclick="english()">eng</button>
+                <button type="button" onclick="location.href='https://github.com/siretjorro'">
+                    <i class="fa fa-github"></i>
+                </button>
             </section>
 
             <section>
