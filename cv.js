@@ -4,8 +4,8 @@ function estonian() {
     document.body.innerHTML = `
         <main>
             <section><br/>
-                <button id="est" type="button" onclick="estonian()">eesti keel</button>
-                <button id="eng" type="button" onclick="english()">english</button>
+                <button id="est" type="button" onclick="estonian()">ee</button>
+                <button id="eng" type="button" onclick="english()">eng</button>
             </section>
 
             <section>
@@ -14,8 +14,7 @@ function estonian() {
                 👧 07.02.1998<br/>
                 🏠 Tallinn<br/>
                 📞 53038319<br/>
-                ✉️ siretjorro@gmail.com<br/><br/>
-                
+                ✉️ siretjorro@gmail.com<br/>
             </section>
             
             <section>
@@ -48,7 +47,7 @@ function estonian() {
             <section>
                 <h1>Oskused</h1>
 
-                Olen kodus programmeerimiskeeltega Python ja Java, olen arendanud veebirakendusi keeltes Javascript, PHP ja Node.js. Olen teinud rakendusi nii Androidile kui iOSile. Tunnen HTML-i ja CSS-i, oskan ümber käia andmebaasidega. Kasutan regulaarselt versioonihaldust ja Bashi.
+                Olen kodus programmeerimiskeeltega Python ja Java, olen arendanud veebirakendusi keeltes Javascript, PHP ja Node.js. Oman kogemust ka veebiraamistikega Angular ning Vue, samuti olen kasutanud Spring Booti. Olen teinud <i>native</i> rakendusi nii Androidile kui iOSile ning pole võõras ka hübriidmobiilirakendustega (React Native, Flutter). Tunnen HTML-i ja CSS-i, oskan ümber käia andmebaasidega. Kasutan regulaarselt versioonihaldust ja Bashi.
             </section>
             
             <section>
@@ -77,7 +76,7 @@ function english() {
                 👧 07/02/1998<br/>
                 🏠 Tallinn<br/>
                 📞 53038319<br/>
-                ✉️ siretjorro@gmail.com<br/><br/>
+                ✉️ siretjorro@gmail.com<br/>
             </section>
             
             <section>
@@ -110,7 +109,7 @@ function english() {
             <section>
                 <h1>Technical skills</h1>
 
-                I know Python and Java and have created web applications in Javascript, PHP and Node.js. I have experience with building mobile applications for both Android and iOS. I am familiar with HTML and CSS and know my way around databases. I regularly use Git and Bash.
+                I know Python and Java and have created web applications in Javascript, PHP and Node.js. I have worked with Angular, Vue and Spring Boot. I have experience with building native mobile applications for both Android and iOS. On top of that, I have used React Native and Flutter to create hybrid mobile applications. I am familiar with HTML and CSS and know my way around databases. I regularly use Git and Bash.
             </section>
             
             <section>
