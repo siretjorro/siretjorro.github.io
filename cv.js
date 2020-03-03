@@ -13,7 +13,6 @@ function estonian() {
 
                 👧 07.02.1998<br/>
                 🏠 Tallinn<br/>
-                📞 53038319<br/>
                 ✉️ siretjorro@gmail.com<br/>
             </section>
             
@@ -75,7 +74,6 @@ function english() {
 
                 👧 07/02/1998<br/>
                 🏠 Tallinn<br/>
-                📞 53038319<br/>
                 ✉️ siretjorro@gmail.com<br/>
             </section>
             
