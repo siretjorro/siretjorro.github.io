@@ -58,7 +58,7 @@ function show() {
             </section>
 
             <section>
-                <a href="files/Siret_Jorro_estonian.pdf" download>lae CV alla</a>
+                <a href="files/Siret_Jorro_CV_ee.pdf" download>lae CV alla</a>
             </section>
         </main>`;
 
@@ -120,7 +120,7 @@ function show() {
             </section>
 
             <section>
-                <a href="files/Siret_Jorro_english.pdf" download>download CV</a>
+                <a href="files/Siret_Jorro_resume_eng.pdf" download>download CV</a>
             </section>
         </main>`;
 
