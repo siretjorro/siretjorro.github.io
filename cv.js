@@ -7,6 +7,9 @@ function show() {
         <main>
             <section><br/>
                 <button type="button" onclick="show()">english</button>
+                <button type="button" onclick="location.href='https://github.com/siretjorro'">
+                    <i class="fa fa-github"></i>
+                </button>
             </section>
 
             <section>
@@ -68,7 +71,9 @@ function show() {
         <main>
             <section><br/>
             <button type="button" onclick="show()">eesti keeles</button>
-
+            <button type="button" onclick="location.href='https://github.com/siretjorro'">
+            <i class="fa fa-github"></i>
+        </button>
             </section>
 
             <section>
