@@ -81,6 +81,7 @@ function english() {
                 👧 07/02/1998<br/>
                 🏠 Tallinn<br/>
                 ✉️ siretjorro@gmail.com<br/>
+                <a href="https://github.com/siretjorro">GitHub account</a><br/>
             </section>
             
             <section>
