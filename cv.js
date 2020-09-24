@@ -1,14 +1,12 @@
-estonian()
+let lang = "est";
+show();
 
-function estonian() {
-    document.body.innerHTML = `
+function show() {
+    if (lang == "est") {
+        document.body.innerHTML = `
         <main>
             <section><br/>
-                <button type="button" onclick="estonian()">ee</button>
-                <button type="button" onclick="english()">eng</button>
-                <button type="button" onclick="location.href='https://github.com/siretjorro'">
-                    <i class="fa fa-github"></i>
-                </button>
+                <button type="button" onclick="show()">english</button>
             </section>
 
             <section>
@@ -16,7 +14,8 @@ function estonian() {
 
                 👧 07.02.1998<br/>
                 🏠 Tallinn<br/>
-                ✉️ siretjorro@gmail.com<br/>
+                📞 53038319<br/>
+                ✉️ siretjorro@gmail.com<br/><br/>
             </section>
             
             <section>
@@ -49,7 +48,7 @@ function estonian() {
             <section>
                 <h1>Oskused</h1>
 
-                Olen kodus programmeerimiskeeltega Python ja Java, olen arendanud veebirakendusi keeltes Javascript, PHP ja Node.js. Oman kogemust ka veebiraamistikega Angular ning Vue, samuti olen kasutanud Spring Booti. Olen teinud <i>native</i> rakendusi nii Androidile kui iOSile ning pole võõras ka hübriidmobiilirakendustega (React Native, Flutter). Tunnen HTML-i ja CSS-i, oskan ümber käia andmebaasidega. Kasutan regulaarselt versioonihaldust ja Bashi.
+                Olen kodus programmeerimiskeeltega Python ja Java, olen arendanud veebirakendusi keeltes Javascript, PHP ja Node.js. Olen teinud rakendusi nii Androidile kui iOSile. Tunnen HTML-i ja CSS-i, oskan ümber käia andmebaasidega. Kasutan regulaarselt versioonihaldust ja Bashi.
             </section>
             
             <section>
@@ -62,17 +61,14 @@ function estonian() {
                 <a href="files/Siret_Jorro_estonian.pdf" download>lae CV alla</a>
             </section>
         </main>`;
-}
 
-function english() {
-    document.body.innerHTML = `
+        lang = "eng";
+    } else {
+        document.body.innerHTML = `
         <main>
             <section><br/>
-                <button type="button" onclick="estonian()">ee</button>
-                <button type="button" onclick="english()">eng</button>
-                <button type="button" onclick="location.href='https://github.com/siretjorro'">
-                    <i class="fa fa-github"></i>
-                </button>
+            <button type="button" onclick="show()">eesti keeles</button>
+
             </section>
 
             <section>
@@ -80,8 +76,8 @@ function english() {
 
                 👧 07/02/1998<br/>
                 🏠 Tallinn<br/>
-                ✉️ siretjorro@gmail.com<br/>
-                <a href="https://github.com/siretjorro">GitHub account</a><br/>
+                📞 53038319<br/>
+                ✉️ siretjorro@gmail.com<br/><br/>
             </section>
             
             <section>
@@ -114,7 +110,7 @@ function english() {
             <section>
                 <h1>Technical skills</h1>
 
-                I know Python and Java and have created web applications in Javascript, PHP and Node.js. I have worked with Angular, Vue and Spring Boot. I have experience with building native mobile applications for both Android and iOS. On top of that, I have used React Native and Flutter to create hybrid mobile applications. I am familiar with HTML and CSS and know my way around databases. I regularly use Git and Bash.
+                I know Python and Java and have created web applications in Javascript, PHP and Node.js. I have experience with building mobile applications for both Android and iOS. I am familiar with HTML and CSS and know my way around databases. I regularly use Git and Bash.
             </section>
             
             <section>
@@ -127,4 +123,7 @@ function english() {
                 <a href="files/Siret_Jorro_english.pdf" download>download CV</a>
             </section>
         </main>`;
+
+        lang = "est";
+    }
 }
