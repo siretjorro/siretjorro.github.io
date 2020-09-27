@@ -1,0 +1,22 @@
+.social-media {
+    font-size: 2rem;
+    background-color: transparent;
+    /* color: #2867B2; */
+}
+
+.social-media:hover {
+    background-color: lightgrey;
+    border-color: transparent;
+}
+
+.github {
+    color: black;
+}
+
+.linkedin {
+    color: #2867B2;
+}
+
+p {
+    margin: 0;
+}
