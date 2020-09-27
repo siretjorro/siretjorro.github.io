@@ -1,134 +1,78 @@
-let lang = "est";
+let lang = "et";
 show();
 
+function changeLang() {
+    lang = lang == "en" ? "et" : "en";
+    show();
+}
+
 function show() {
-    if (lang == "est") {
-        document.body.innerHTML = `
+    document.body.innerHTML = `
         <main>
             <section><br/>
-                <button type="button" onclick="show()">english</button>
-                <button type="button" onclick="location.href='https://github.com/siretjorro'">
-                    <i class="fa fa-github"></i>
-                </button>
+            <button type="button" class="social-media" onclick="changeLang()">${lang == "et" ? "🇬🇧" : "🇪🇪"}</button>
+            <button type="button" class="social-media github" onclick="location.href='https://github.com/siretjorro'">
+                <i class="fa fa-github"></i>
+            </button>
+            <button type="button" class="social-media linkedin" onclick="location.href='https://linkedin.com/in/siretjorro'">
+                <i class="fa fa-linkedin"></i>
+            </button>
             </section>
 
             <section>
                 <h1>Siret Jorro</h1>
 
-                👧 07.02.1998<br/>
-                🏠 Tallinn<br/>
-                📞 53038319<br/>
-                ✉️ siretjorro@gmail.com<br/><br/>
+                <p>👧 ${lang == "et" ? "07.02.1998" : "07/02/1998"}</p>
+                <p>🏠 Tallinn</p>
+                <p>📞 53038319</p>
+                <p>✉️ siretjorro@gmail.com</p>
             </section>
             
             <section>
-                <h1>Töökogemus</h1>
+                <h1>${lang == "et" ? "Töökogemus" : "Work experience"}</h1>
                 
-                Olen töötanud peamiselt klienditeeninduses, nii kassapidajana külapoes kui baristana lennujaamas.
+                <p>${lang == "et" ? "Olen töötanud peamiselt klienditeeninduses, nii kassapidajana külapoes kui baristana lennujaamas." : "I have previous experience in customer service, I have worked as a cashier and a barista."}</p>
             </section>
             
             <section>
-                <h1>Haridus</h1>
+                <h1>${lang == "et" ? "Haridus" : "Education"}</h1>
                 
-                2018 - <br/>
-                Tallinna Tehnikaülikool<br/>
-                Bakalaureusekraad, informaatika<br/><br/>
-        
-                2017 - 2018<br/>
-                Tartu Ülikool<br/>
-                Bakalaureusekraad, matemaatika<br/>
-                (vahetasin pärast ühte aastat eriala informaatika vastu)
+                <section>
+                    <p>2018 - </p>
+                    <p>${lang == "et" ? "Tallinna Tehnikaülikool" : "Tallinn University of Technology"}</p>
+                    <p>${lang == "et" ? "Bakalaureusekraad, informaatika" : "Bachelor's degree, Computer Science"}</p>
+                </section>
+
+                <section>
+                    <p>2017 - 2018</p>
+                    <p>${lang == "et" ? "Tartu Ülikool" : "University of Tartu"}</p>
+                    <p>${lang == "et" ? "Bakalaureusekraad, matemaatika" : "Bachelor's degree, Mathematics"}</p>
+                    <p>${lang == "et" ? "(vahetasin pärast ühte aastat eriala informaatika vastu)" : "(changed my major to Computer Science after one year)"}</p>
+                </section>
             </section>
             
             <section>
-                <h1>Keeled</h1>
+                <h1>${lang == "et" ? "Keeled" : "Language skills"}</h1>
 
-                Eesti keel - emakeel<br/>
-                Inglise keel - suurepärane<br/>
-                Vene keel - rahuldav
+                <p>${lang == "et" ? "Eesti keel - emakeel" : "Estonian - native language"}</p>
+                <p>${lang == "et" ? "Inglise keel - suurepärane" : "English - proficient"}</p>
+                <p>${lang == "et" ? "Vene keel - rahuldav" : "Russian - beginner"}</p>
             </section>
 
             <section>
-                <h1>Oskused</h1>
+                <h1>${lang == "et" ? "Oskused": "Technical skills"}</h1>
 
-                Olen kodus programmeerimiskeeltega Python ja Java, olen arendanud veebirakendusi keeltes Javascript, PHP ja Node.js. Olen teinud rakendusi nii Androidile kui iOSile. Tunnen HTML-i ja CSS-i, oskan ümber käia andmebaasidega. Kasutan regulaarselt versioonihaldust ja Bashi.
+                <p>${lang == "et" ? "Olen kodus programmeerimiskeeltega Python ja Java, olen arendanud veebirakendusi keeltes Javascript, PHP ja Node.js. Olen teinud rakendusi nii Androidile kui iOSile. Tunnen HTML-i ja CSS-i, oskan ümber käia andmebaasidega. Kasutan regulaarselt versioonihaldust ja Bashi." : "I know Python and Java and have created web applications in Javascript, PHP and Node.js. I have experience with building mobile applications for both Android and iOS. I am familiar with HTML and CSS and know my way around databases. I regularly use Git and Bash."}</p>
             </section>
             
             <section>
-                <h1>Autojuhiload</h1>
+                <h1>${lang == "et" ? "Autojuhiload" : "Driver's license"}</h1>
 
-                B-kategooria, aastast 2016
+                <p>${lang == "et" ? "B-kategooria, aastast 2016" : "B-category, since 2016"}</p>
             </section>
 
             <section>
-                <a href="files/Siret_Jorro_CV_ee.pdf" download>lae CV alla</a>
+                ${lang == "et" ? "<a href='files/Siret_Jorro_CV_ee.pdf' download>lae CV alla</a>" : "<a href='files/Siret_Jorro_resume_eng.pdf' download>download resume</a>"}
             </section>
         </main>`;
-
-        lang = "eng";
-    } else {
-        document.body.innerHTML = `
-        <main>
-            <section><br/>
-            <button type="button" onclick="show()">eesti keeles</button>
-            <button type="button" onclick="location.href='https://github.com/siretjorro'">
-            <i class="fa fa-github"></i>
-        </button>
-            </section>
-
-            <section>
-                <h1>Siret Jorro</h1>
-
-                👧 07/02/1998<br/>
-                🏠 Tallinn<br/>
-                📞 53038319<br/>
-                ✉️ siretjorro@gmail.com<br/><br/>
-            </section>
-            
-            <section>
-                <h1>Work experience</h1>
-                
-                I have previous experience in customer service, I have worked as a cashier and a barista.
-            </section>
-            
-            <section>
-                <h1>Education</h1>
-                
-                2018 -<br/>
-                Tallinn University of Technology<br/>
-                Bachelor's degree, Computer Science<br/><br/>
-        
-                2017 - 2018<br/>
-                University of Tartu<br/>
-                Bachelor's degree, Mathematics<br/>
-                (changed my major to Computer Science after one year)
-            </section>
-            
-            <section>
-                <h1>Language skills</h1>
-
-                Estonian - native language<br/>
-                English - proficient<br/>
-                Russian - beginner
-            </section>
-
-            <section>
-                <h1>Technical skills</h1>
-
-                I know Python and Java and have created web applications in Javascript, PHP and Node.js. I have experience with building mobile applications for both Android and iOS. I am familiar with HTML and CSS and know my way around databases. I regularly use Git and Bash.
-            </section>
-            
-            <section>
-                <h1>Driver's license</h1>
-
-                B-category, since 2016
-            </section>
-
-            <section>
-                <a href="files/Siret_Jorro_resume_eng.pdf" download>download CV</a>
-            </section>
-        </main>`;
-
-        lang = "est";
-    }
 }
