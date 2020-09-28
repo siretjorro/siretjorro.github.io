@@ -9,25 +9,22 @@ function changeLang() {
 function show() {
     document.body.innerHTML = `
         <main>
-            <section><br/>
-            <button type="button" class="social-media" onclick="changeLang()">${lang == "et" ? "🇬🇧" : "🇪🇪"}</button>
-            <button type="button" class="social-media github" onclick="location.href='https://github.com/siretjorro'">
-                <i class="fa fa-github"></i>
-            </button>
-            <button type="button" class="social-media linkedin" onclick="location.href='https://linkedin.com/in/siretjorro'">
-                <i class="fa fa-linkedin"></i>
-            </button>
-            </section>
-
             <section>
+                <aside>
+                <a class="social-media github" href='https://github.com/siretjorro'><i class="fa fa-github"></i></a>
+                <a class="social-media linkedin" href='https://linkedin.com/in/siretjorro'><i class="fa fa-linkedin"></i></a>
+                <a class="social-media" onclick="changeLang()">${lang == "et" ? "🇬🇧" : "🇪🇪"}</a>
+                </aside>
+                
                 <h1>Siret Jorro</h1>
-
+                
                 <p>👧 ${lang == "et" ? "07.02.1998" : "07/02/1998"}</p>
                 <p>🏠 Tallinn</p>
                 <p>📞 53038319</p>
                 <p>✉️ siretjorro@gmail.com</p>
             </section>
-            
+                
+                
             <section>
                 <h1>${lang == "et" ? "Töökogemus" : "Work experience"}</h1>
                 
