@@ -16,7 +16,7 @@ function show() {
                 <a class="social-media" onclick="changeLang()">${lang == "et" ? "🇬🇧" : "🇪🇪"}</a>
                 </aside>
                 
-                <h1>Siret Jorro CV</h1>
+                <h1>Siret Jorro</h1>
                 
                 <p>👧 ${lang == "et" ? "07.02.1998" : "07/02/1998"}</p>
                 <p>🏠 Tallinn</p>
