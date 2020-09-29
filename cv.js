@@ -11,9 +11,9 @@ function show() {
         <main>
             <section>
                 <aside>
+                <a class="social-media" onclick="changeLang()">${lang == "et" ? "🇬🇧" : "🇪🇪"}</a>
                 <a class="social-media github" href='https://github.com/siretjorro'><i class="fa fa-github"></i></a>
                 <a class="social-media linkedin" href='https://linkedin.com/in/siretjorro'><i class="fa fa-linkedin"></i></a>
-                <a class="social-media" onclick="changeLang()">${lang == "et" ? "🇬🇧" : "🇪🇪"}</a>
                 </aside>
                 
                 <h1>Siret Jorro</h1>
