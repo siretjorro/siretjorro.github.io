@@ -2,9 +2,13 @@
     font-size: 2.5rem;
     border-radius: .25rem;
     cursor: pointer;
-    /* padding: 8px 16px; */
     padding: 0px 0px 0px 24px;
-    /* display: block; */
+}
+
+@media only screen and (max-device-width: 480px) {
+    .social-media {
+        display: block;
+    }
 }
 
 a, a:hover, a:visited, a:link, a:active {
@@ -28,10 +32,3 @@ aside {
     text-align: right;
     float: right;
 }
-
-/* if mobile device max width 480px */
-@media only screen and (max-device-width: 480px) {
-    .social-media {
-        display: block;
-    }
- }
