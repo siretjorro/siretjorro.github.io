@@ -18,7 +18,7 @@ function show() {
                 
                 <h1>Siret Jorro</h1>
                 
-                <p>👧 ${lang == "et" ? "07.02.1998" : "07/02/1998"}</p>
+                <p>👧 ${lang == "et" ? "07.02.1998" : "7 Feb 1998"}</p>
                 <p>🏠 Tallinn</p>
                 <p>📞 53038319</p>
                 <p>✉️ siretjorro@gmail.com</p>
