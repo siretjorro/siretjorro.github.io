@@ -27,21 +27,31 @@ function show() {
                 
             <section>
                 <h1>${lang == "et" ? "Töökogemus" : "Work experience"}</h1>
-                
-                <p>${lang == "et" ? "Olen töötanud peamiselt klienditeeninduses, nii kassapidajana külapoes kui baristana lennujaamas." : "I have previous experience in customer service, I have worked as a cashier and a barista."}</p>
+
+                <section>
+                    <h5>${lang == "et" ? "01.07.2019 - 31.08.2020" : "1 Jul 2019 - 31 Aug 2020"}</h5>
+                    <p>B&M Group OÜ</p>
+                    <p>${lang == "et" ? "Klienditeenindaja" : "Salesperson"}</p>
+                </section>
+
+                <section>
+                    <h5>${lang == "et" ? "01.07.2018 - 31.01.2019" : "1 Jul 2018 - 31 Jan 2019"}</h5>
+                    <p>Köök, Kunst ja Kohvikud OÜ</p>
+                    <p>Barista</p>
+                </section>
             </section>
-            
+
             <section>
                 <h1>${lang == "et" ? "Haridus" : "Education"}</h1>
                 
                 <section>
-                    <p>2018 - </p>
+                    <h5>2018 - </h5>
                     <p>${lang == "et" ? "Tallinna Tehnikaülikool" : "Tallinn University of Technology"}</p>
                     <p>${lang == "et" ? "Bakalaureusekraad, informaatika" : "Bachelor's degree, Computer Science"}</p>
                 </section>
 
                 <section>
-                    <p>2017 - 2018</p>
+                    <h5>2017 - 2018</h5>
                     <p>${lang == "et" ? "Tartu Ülikool" : "University of Tartu"}</p>
                     <p>${lang == "et" ? "Bakalaureusekraad, matemaatika" : "Bachelor's degree, Mathematics"}</p>
                     <p>${lang == "et" ? "(vahetasin pärast ühte aastat eriala informaatika vastu)" : "(changed my major to Computer Science after one year)"}</p>
@@ -57,9 +67,9 @@ function show() {
             </section>
 
             <section>
-                <h1>${lang == "et" ? "Oskused": "Technical skills"}</h1>
+                <h1>${lang == "et" ? "Oskused" : "Technical skills"}</h1>
 
-                <p>${lang == "et" ? "Olen kodus programmeerimiskeeltega Python ja Java, olen arendanud veebirakendusi keeltes Javascript, PHP ja Node.js. Olen teinud rakendusi nii Androidile kui iOSile. Tunnen HTML-i ja CSS-i, oskan ümber käia andmebaasidega. Kasutan regulaarselt versioonihaldust ja Bashi." : "I know Python and Java and have created web applications in Javascript, PHP and Node.js. I have experience with building mobile applications for both Android and iOS. I am familiar with HTML and CSS and know my way around databases. I regularly use Git and Bash."}</p>
+                <p>${lang == "et" ? "Olen kodus programmeerimiskeeltega Python ja Java, olen arendanud veebirakendusi keeltes Javascript, PHP ja Node.js. Oman kogemust ka veebiraamistikega Angular ning Vue, samuti olen kasutanud Spring Booti. Olen teinud native rakendusi nii Androidile kui iOSile ning pole võõras ka hübriidmobiilirakendustega (React Native, Flutter). Tunnen HTML-i ja CSS-i, oskan ümber käia andmebaasidega. Kasutan regulaarselt versioonihaldust ja Bashi." : "I know Python and Java and have created web applications in Javascript, PHP and Node.js. I have worked with Angular, Vue and Spring Boot. I have experience with building native mobile applications for both Android and iOS. On top of that, I have used React Native and Flutter to create hybrid mobile applications. I am familiar with HTML and CSS and know my way around databases. I regularly use Git and Bash."}</p>
             </section>
             
             <section>
