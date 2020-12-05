@@ -29,6 +29,12 @@ function show() {
                 <h1>${lang == "et" ? "Töökogemus" : "Work experience"}</h1>
 
                 <section>
+                    <h5>${lang == "et" ? "01.12.2020 -" : "1 Dec 2020 -"}</h5>
+                    <p>Ridango AS</p>
+                    <p>QA Engineer</p>
+                </section>
+
+                <section>
                     <h5>${lang == "et" ? "01.07.2019 - 31.08.2020" : "1 Jul 2019 - 31 Aug 2020"}</h5>
                     <p>B&M Group OÜ</p>
                     <p>${lang == "et" ? "Klienditeenindaja" : "Salesperson"}</p>
