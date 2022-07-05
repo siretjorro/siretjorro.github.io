@@ -50,7 +50,7 @@ function show() {
                 <h1>${lang == "et" ? "Haridus" : "Education"}</h1>
                 
                 <section>
-                    <h5>2018 - </h5>
+                    <h5>2018 - 2021</h5>
                     <p>${lang == "et" ? "Tallinna Tehnikaülikool" : "Tallinn University of Technology"}</p>
                     <p>${lang == "et" ? "Bakalaureusekraad, informaatika" : "Bachelor's degree, Computer Science"}</p>
                 </section>
