@@ -84,7 +84,7 @@ function show() {
             </section>
 
             <section>
-                ${lang == "et" ? "<a href='files/Siret_Jorro_CV_ee.pdf' download>lae CV alla</a>" : "<a href='files/Siret_Jorro_resume_en.pdf' download>download resume</a>"}
+                ${lang == "et" ? "<a href='files/siret_jorro_cv.pdf' download>lae CV alla</a>" : "<a href='files/siret_jorro_resume.pdf' download>download resume</a>"}
             </section>
         </main>`;
 }
