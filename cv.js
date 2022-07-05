@@ -20,7 +20,6 @@ function show() {
                 
                 <p>👧 ${lang == "et" ? "07.02.1998" : "7 Feb 1998"}</p>
                 <p>🏠 Tallinn</p>
-                <p>📞 53038319</p>
                 <p>✉️ siretjorro@gmail.com</p>
             </section>
                 
@@ -29,7 +28,7 @@ function show() {
                 <h1>${lang == "et" ? "Töökogemus" : "Work experience"}</h1>
 
                 <section>
-                    <h5>${lang == "et" ? "01.12.2020 -" : "1 Dec 2020 -"}</h5>
+                    <h5>${lang == "et" ? "01.12.2020 - 20.05.2022" : "1 Dec 2020 - 20 May 2022"}</h5>
                     <p>Ridango AS</p>
                     <p>QA Engineer</p>
                 </section>
