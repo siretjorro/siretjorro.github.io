@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { LangChangeEvent, TranslateService } from '@ngx-translate/core';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-root',
@@ -10,10 +10,8 @@ export class AppComponent {
   title = 'resume';
 
   constructor(private translateService: TranslateService) {
-    this.translateService.setDefaultLang('en');
+
     this.translateService.use(localStorage.getItem('lang') || 'en');
-    // this.translateService.onLangChange.subscribe((event:LangChangeEvent) => {
-    //   console.log('onLangChange', event.translations)
-    // });
+
   }
 }

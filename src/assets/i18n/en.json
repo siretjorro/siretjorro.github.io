@@ -1,3 +1,18 @@
 {
-  "hello": "hello"
+  "experience": "Work experience",
+  "salesperson": "Salesperson",
+  "education": "Education",
+  "taltech": "Tallinn University of Technology",
+  "informatics": "Bachelor's degree, Informatics",
+  "ut": "University of Tartu",
+  "mathematics": "Bachelor's degree, Mathematics",
+  "disclaimer": "(changed my major to Informatics after one year)",
+  "languages": "Language skills",
+  "estonian": "Estonian - native language",
+  "english": "English - proficient",
+  "russian": "Russian - beginner",
+  "skills": "Technical skills",
+  "theActualSkills": "I know Python and Java and have created web applications in Javascript, PHP and Node.js. I have worked with Angular, Vue and Spring Boot. I have experience with building native mobile applications for both Android and iOS. On top of that, I have used React Native and Flutter to create hybrid mobile applications. I am familiar with HTML and CSS and know my way around databases. I regularly use Git and Bash.",
+  "licence": "Driver's licence",
+  "b": "B-category, since 2016"
 }

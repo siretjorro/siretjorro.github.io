@@ -7,10 +7,13 @@ import { TranslateService } from '@ngx-translate/core';
   styleUrls: ['./nav.component.scss']
 })
 export class NavComponent implements OnInit {
-  langs = ['en', 'et'];
+  langs = [
+    {'code': 'en', 'label': '🇬🇧'},
+    {'code': 'et', 'label': '🇪🇪'}];
+
   selectedLang!: string;
 
-  constructor(private translateService: TranslateService) { }
+  constructor(private translateService: TranslateService) {}
 
   ngOnInit(): void {
     this.selectedLang = localStorage.getItem('lang') || 'en';
@@ -19,7 +22,7 @@ export class NavComponent implements OnInit {
   changeLang(lang: string): void {
     localStorage.setItem('lang', lang);
     this.translateService.use(lang);
-    // window.location.reload();
+    this.ngOnInit();
   }
 
 }

@@ -1,3 +1,18 @@
 {
-  "hello": "tere"
+  "experience": "Töökogemus",
+  "salesperson": "Klienditeenindaja",
+  "education": "Haridus",
+  "taltech": "Tallinna Tehnikaülikool",
+  "informatics": "Bakalaureusekraad, informaatika",
+  "ut": "Tartu Ülikool",
+  "mathematics": "Bakalaureusekraad, matemaatika",
+  "disclaimer": "(vahetasin pärast ühte aastat eriala informaatika vastu)",
+  "languages": "Keeled",
+  "estonian": "Eesti keel - emakeel",
+  "english": "Inglise keel - suurepärane",
+  "russian": "Vene keel - rahuldav",
+  "skills": "Oskused",
+  "theActualSkills": "Olen kodus programmeerimiskeeltega Python ja Java, olen arendanud veebirakendusi keeltes Javascript, PHP ja Node.js. Oman kogemust ka veebiraamistikega Angular ning Vue, samuti olen kasutanud Spring Booti. Olen teinud native rakendusi nii Androidile kui iOSile ning pole võõras ka hübriidmobiilirakendustega (React Native, Flutter). Tunnen HTML-i ja CSS-i, oskan ümber käia andmebaasidega. Kasutan regulaarselt versioonihaldust ja Bashi.",
+  "licence": "Autojuhiload",
+  "b": "B-kategooria, aastast 2016"
 }

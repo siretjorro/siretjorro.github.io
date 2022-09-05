@@ -1,3 +1,71 @@
-<div>
-  {{'hello' | translate}}
-</div>
+<section>
+  <h1>Siret Jorro</h1>
+
+  <p>👧 {{ '1998-02-07' | localizedDate: 'longDate' }}</p>
+  <p>🏠 Tallinn</p>
+  <p>✉️ siretjorro@gmail.com</p>
+</section>
+
+<section>
+  <h1>{{'experience' | translate}}</h1>
+
+  <section>
+    <h5>{{ '2020-12-01' | localizedDate: 'longDate' }} - {{ '2022-05-20' | localizedDate: 'longDate' }}</h5>
+    <p>Ridango AS</p>
+    <p>Quality Assurance Engineer</p>
+  </section>
+
+  <section>
+    <h5>{{ '2019-07-01' | localizedDate: 'longDate' }} - {{ '2020-08-31' | localizedDate: 'longDate' }}</h5>
+    <p>B&M Group OÜ</p>
+    <p>{{ 'salesperson' | translate }}</p>
+  </section>
+
+  <section>
+    <h5>{{ '2018-07-01' | localizedDate: 'longDate' }} - {{ '2019-01-31' | localizedDate: 'longDate' }}</h5>
+    <p>Köök, Kunst ja Kohvikud OÜ</p>
+    <p>Barista</p>
+  </section>
+</section>
+
+<section>
+  <h1>{{'education' | translate}}</h1>
+
+  <section>
+    <h5>2018 - 2021</h5>
+    <p>{{ 'taltech' | translate }}</p>
+    <p>{{ 'informatics' | translate }}</p>
+  </section>
+
+  <section>
+    <h5>2017 - 2018</h5>
+    <p>{{ 'ut' | translate }}</p>
+    <p>{{ 'mathematics' | translate }}</p>
+    <p>{{ 'disclaimer' | translate }}</p>
+  </section>
+
+  <section>
+    <h1>{{ 'languages' | translate }}</h1>
+
+    <p>{{ 'estonian' | translate }}</p>
+    <p>{{ 'english' | translate }}</p>
+    <p>{{ 'russian' | translate }}</p>
+  </section>
+
+  <section>
+    <h1>{{ 'skills' | translate }}</h1>
+
+    <p>{{ 'theActualSkills' | translate }}</p>
+  </section>
+
+  <section>
+    <h1>{{ 'licence' | translate }}</h1>
+
+    <p>{{ 'b' | translate }}</p>
+  </section>
+
+  <!-- <section>
+    ${lang == "et" ? "<a href='files/siret_jorro_cv.pdf' download>lae CV alla</a>" : "<a
+      href='files/siret_jorro_resume.pdf' download>download resume</a>"}
+  </section> -->
+</section>
