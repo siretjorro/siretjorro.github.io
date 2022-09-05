@@ -1,0 +1,7 @@
+<nav>
+  <select [(ngModel)]="selectedLang" (change)="changeLang(selectedLang)">
+    <option *ngFor="let lang of langs" [value]="lang" [selected]="selectedLang == lang">{{lang}}</option>
+    <!-- <option value="en">english</option>
+    <option value="et">estonian</option> -->
+  </select>
+</nav>
