@@ -22,5 +22,5 @@
   "theActualSkills": "I am passionate about front-end development, have created web applications using Angular, Vue and React. Currently working on a meditation timer app to suit my needs. I am also interested in mobile development, both native and hybrid. However, I do not shy away from back-end development either and have experience with Java, Python and Node.js. While working as a QA Engineer I maintained some automated tests using Selenium with Java. My experience as a QA Engineer greatly improved my SQL skills as well.\n\nIn my bachelor thesis (done with a fellow student) we used TensorFlow to train a machine learning model to detect cargo ships from satellite imagery and built an API (using Flask) to receive the images and return the detection results. The project also included calculating the ship's geographical location using the image's metadata.",
   "licence": "Driver's licence",
   "b": "B-category, since 2016",
-  "download": "<a href='/assets/files/siret_jorro_resume_en.pdf' download>download resume</a>"
+  "download": "<a href='/resume/assets/files/siret_jorro_resume_en.pdf' download>download resume</a>"
 }
