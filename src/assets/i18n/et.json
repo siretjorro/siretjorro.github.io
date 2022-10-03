@@ -1,9 +1,15 @@
 {
-  "experience": "Töökogemus",
-  "salesperson": "Klienditeenindaja",
+  "workExperience": "Töökogemus",
+  "ridango": "Peamiselt manuaalne UI ja API testimine, lisaks testide automatiseerimist (Selenium ja TestProject.io).",
+  "showroomManager": "Showroomi haldaja",
+  "otherExperience": "Muu kogemus",
+  "ff": "Rakvere Gümnaasiumi filmifestival",
+  "ffRoles": "Korraldusmeeskonnaliige, peakorraldaja aastal 2017, programmijuht aastal 2022",
+  "ffResponsibilities": "Vastutusalad: eelarve koostamine, tiimi juhtimine, suhtlus pressiga, turundus",
   "education": "Haridus",
   "taltech": "Tallinna Tehnikaülikool",
   "informatics": "Bakalaureusekraad, informaatika",
+  "thesis": "Lõputöö märksõnad: masinõpe, objektituvastus, REST API",
   "ut": "Tartu Ülikool",
   "mathematics": "Bakalaureusekraad, matemaatika",
   "disclaimer": "(vahetasin pärast ühte aastat eriala informaatika vastu)",
@@ -12,7 +18,9 @@
   "english": "Inglise keel - suurepärane",
   "russian": "Vene keel - rahuldav",
   "skills": "Oskused",
-  "theActualSkills": "Olen kodus programmeerimiskeeltega Python ja Java, olen arendanud veebirakendusi keeltes Javascript, PHP ja Node.js. Oman kogemust ka veebiraamistikega Angular ning Vue, samuti olen kasutanud Spring Booti. Olen teinud native rakendusi nii Androidile kui iOSile ning pole võõras ka hübriidmobiilirakendustega (React Native, Flutter). Tunnen HTML-i ja CSS-i, oskan ümber käia andmebaasidega. Kasutan regulaarselt versioonihaldust ja Bashi.",
+  "expand": "Rohkem infot",
+  "theActualSkills": "siia tuleb ka mingi tekst kunagi",
   "licence": "Autojuhiload",
-  "b": "B-kategooria, aastast 2016"
+  "b": "B-kategooria, aastast 2016",
+  "download": "<a href='../../assets/files/siret_jorro_resume_et.pdf' download>lae CV alla</a>"
 }

@@ -1,9 +1,15 @@
 {
-  "experience": "Work experience",
-  "salesperson": "Salesperson",
+  "workExperience": "Work experience",
+  "ridango": "Mostly manual UI and API testing with some test automation (Selenium and TestProject.io).",
+  "showroomManager": "Showroom manager",
+  "otherExperience": "Other experience",
+  "ff": "Rakvere Gymnasium's Film Festival",
+  "ffRoles": "Team member, head organizer in 2017, programme director in 2022",
+  "ffResponsibilities": "Responsibilities included budgeting, managing a team, communicating with the press, marketing",
   "education": "Education",
   "taltech": "Tallinn University of Technology",
   "informatics": "Bachelor's degree, Informatics",
+  "thesis": "Thesis keywords: machine learning, object detection, REST API",
   "ut": "University of Tartu",
   "mathematics": "Bachelor's degree, Mathematics",
   "disclaimer": "(changed my major to Informatics after one year)",
@@ -12,7 +18,9 @@
   "english": "English - proficient",
   "russian": "Russian - beginner",
   "skills": "Technical skills",
-  "theActualSkills": "I know Python and Java and have created web applications in Javascript, PHP and Node.js. I have worked with Angular, Vue and Spring Boot. I have experience with building native mobile applications for both Android and iOS. On top of that, I have used React Native and Flutter to create hybrid mobile applications. I am familiar with HTML and CSS and know my way around databases. I regularly use Git and Bash.",
+  "expand": "Expand for more information",
+  "theActualSkills": "I am passionate about front-end development, have created web applications using Angular, Vue and React. Currently working on a meditation timer app to suit my needs. I am also interested in mobile development, both native and hybrid. However, I do not shy away from back-end development either and have experience with Java, Python and Node.js. While working as a QA Engineer I maintained some automated tests using Selenium with Java. My experience as a QA Engineer greatly improved my SQL skills as well.\n\nIn my bachelor thesis (done with a fellow student) we used TensorFlow to train a machine learning model to detect cargo ships from satellite imagery and built an API (using Flask) to receive the images and return the detection results. The project also included calculating the ship's geographical location using the image's metadata.",
   "licence": "Driver's licence",
-  "b": "B-category, since 2016"
+  "b": "B-category, since 2016",
+  "download": "<a href='../../assets/files/siret_jorro_resume_en.pdf' download>download resume</a>"
 }
