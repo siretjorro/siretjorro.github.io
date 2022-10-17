@@ -19,7 +19,7 @@
   "russian": "Vene keel - rahuldav",
   "skills": "Oskused",
   "expand": "Rohkem infot",
-  "theActualSkills": "siia tuleb ka mingi tekst kunagi",
+  "theActualSkills": "Tunnen huvi <i>front-end</i> arenduse vastu, olen loonud veebirakendusi kasutades Angular, Vue ja React raamistikke. Hetkel arendan minu vajadustele vastavat meditatsiooni taimerit. Olen huvitatud ka hübriid- ning <i>native</i> mobiiliarendusest. Ka <i>back-end</i> arendus ei ole mulle võõras, olen kokku puutunud Java, Pythoni ning Node.jsiga. Testijana töötades haldasin Seleniumi põhiseid automaatteste Javas. Kogemus testijana arendas suurel määral ka mu SQLi oskusi.\n\nOma bakalaureusetöös (tehtud koostööna teise tudengiga) kasutasime TensorFlow'd, et treenida masinõppe mudel tuvastamaks satelliitpiltidelt kaubalaevu ning arendasime Flaskil põhineva API piltide vastu võtmiseks ning tuvastusandmete tagastamiseks. Projekt hõlmas ka pildi metadata põhjal laeva geograafilise asukoha arvutamist.",
   "licence": "Autojuhiload",
   "b": "B-kategooria, aastast 2016",
   "download": "<a href='/resume/assets/files/siret_jorro_resume_et.pdf' download>lae CV alla</a>"

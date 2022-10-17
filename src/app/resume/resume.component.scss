@@ -40,13 +40,10 @@ details {
   // margin-bottom: 0px;
 }
 
-details:hover {
-  cursor: pointer;
-}
-
 details > summary {
   list-style-type: none;
   margin-bottom: 0px;
+  cursor: pointer;
 }
 
 details > summary::-webkit-details-marker {
