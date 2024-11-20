@@ -1,11 +1,14 @@
 {
-  "workExperience": "Töökogemus",
+  "work_experience": "Töökogemus",
+  "mobilab_position": "Android arendaja",
+  "mobilab": "Vastutav jaekaubandusketi Android rakenduse eest, lisaks aitasin vajadusel väiksemate projektidega",
+  "ridango_position": "Testija",
   "ridango": "Peamiselt manuaalne UI ja API testimine, lisaks testide automatiseerimist (Selenium ja TestProject.io)",
-  "showroomManager": "Showroomi haldaja",
-  "otherExperience": "Muu kogemus",
+  "bm_position": "Showroomi haldaja",
+  "other_experience": "Muu kogemus",
   "ff": "Rakvere Gümnaasiumi filmifestival",
-  "ffRoles": "Korraldusmeeskonna liige, peakorraldaja aastal 2017, programmijuht aastal 2022",
-  "ffResponsibilities": "Vastutusalad: eelarve koostamine, tiimi juhtimine, suhtlus pressiga, turundus",
+  "ff_roles": "Korraldusmeeskonna liige, peakorraldaja aastal 2017, programmijuht aastal 2022",
+  "ff_responsibilities": "Vastutusalad: eelarve koostamine, tiimi juhtimine, suhtlus pressiga, turundus",
   "education": "Haridus",
   "taltech": "Tallinna Tehnikaülikool",
   "informatics": "Bakalaureusekraad, informaatika",
@@ -19,8 +22,8 @@
   "russian": "Vene keel - rahuldav",
   "skills": "Oskused",
   "expand": "Rohkem infot",
-  "theActualSkills": "Tunnen huvi <i>front-end</i> arenduse vastu, olen loonud veebirakendusi kasutades Angular, Vue ja React raamistikke. Hetkel arendan minu vajadustele vastavat meditatsiooni taimerit. Olen huvitatud ka hübriid- ning <i>native</i> mobiiliarendusest. Ka <i>back-end</i> arendus ei ole mulle võõras, olen kokku puutunud Java, Pythoni ning Node.jsiga. Testijana töötades haldasin Seleniumi põhiseid automaatteste Javas. Kogemus testijana arendas suurel määral ka mu SQLi oskusi.\n\nOma bakalaureusetöös (tehtud koostööna teise tudengiga) kasutasime TensorFlow'd, et treenida masinõppe mudel tuvastamaks satelliitpiltidelt kaubalaevu ning arendasime Flaskil põhineva API piltide vastu võtmiseks ning tuvastusandmete tagastamiseks. Projekt hõlmas ka pildi metadata põhjal laeva geograafilise asukoha arvutamist.",
+  "the_actual_skills": "",
   "licence": "Autojuhiload",
   "b": "B-kategooria, aastast 2016",
-  "download": "<a href='/resume/assets/files/siret_jorro_resume_et.pdf' download>lae CV alla</a>"
+  "download": "<a href='/assets/files/siret_jorro_resume_et.pdf' download>lae CV alla</a>"
 }

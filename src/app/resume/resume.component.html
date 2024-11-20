@@ -1,77 +1,66 @@
 <section>
   <h1>Siret Jorro</h1>
 
-  <p>👧 {{ '1998-02-07' | localizedDate: 'longDate' }}</p>
-  <p>🏠 Tallinn</p>
+  <p>👶 {{ '1998-02-07' | localizedDate: 'longDate' }}</p>
+  <p>🏠 Tartu</p>
   <p>✉️ siretjorro@gmail.com</p>
 </section>
 
 <section>
-  <h1>{{'workExperience' | translate}}</h1>
+  <h1>{{'work_experience' | translate}}</h1>
 
   <section>
-    <h4>{{ '2020-12-01' | localizedDate: 'longDate' }} - {{ '2022-05-20' | localizedDate: 'longDate' }}</h4>
-    <h5>Ridango AS</h5>
-    <h6>Quality Assurance Engineer</h6>
+    <h5 class="date">{{ '2022-11-21' | localizedDate }} - {{ '2024-08-28' | localizedDate }}</h5>
+    <h4>Mobi Lab</h4>
+    <h4>{{ 'mobilab_position' | translate }}</h4>
+    <p>{{ 'mobilab' | translate }}</p>
+  </section>
+
+  <section>
+    <h5>{{ '2020-12-01' | localizedDate }} - {{ '2022-05-20' | localizedDate }}</h5>
+    <h4>Ridango</h4>
+    <h4>{{ 'ridango_position' | translate }}</h4>
     <p>{{ 'ridango' | translate }}</p>
   </section>
 
-  <section>
-    <h4>{{ '2019-07-01' | localizedDate: 'longDate' }} - {{ '2020-08-31' | localizedDate: 'longDate' }}</h4>
+  <!-- <section>
+    <h4>{{ '2019-07-01' | localizedDate }} - {{ '2020-08-31' | localizedDate }}</h4>
     <h5>B&M Group OÜ</h5>
-    <h6>{{ 'showroomManager' | translate }}</h6>
+    <h6>{{ 'bm_position' | translate }}</h6>
   </section>
 
   <section>
-    <h4>{{ '2018-07-01' | localizedDate: 'longDate' }} - {{ '2019-01-31' | localizedDate: 'longDate' }}</h4>
+    <h4>{{ '2018-07-01' | localizedDate }} - {{ '2019-01-31' | localizedDate }}</h4>
     <h5>Köök, Kunst ja Kohvikud OÜ</h5>
     <h6>Barista</h6>
+  </section> -->
+</section>
+
+<section>
+  <h1>{{'other_experience' | translate}}</h1>
+
+  <section>
+    <h5>2014 - 2017, 2022</h5>
+    <h4>{{ 'ff' | translate }}</h4>
+    <h5>{{ 'ff_roles' | translate }}</h5>
+    <p>{{ 'ff_responsibilities' | translate }}</p>
   </section>
 </section>
 
 <section>
-  <h1>{{'otherExperience' | translate}}</h1>
-
-  <section>
-    <h4>2014 - 2017, 2022</h4>
-    <h5>{{ 'ff' | translate }}</h5>
-    <h6>{{ 'ffRoles' | translate }}</h6>
-    <p>{{ 'ffResponsibilities' | translate }}</p>
-  </section>
-</section>
-
-<!-- <section>
   <h1>{{'education' | translate}}</h1>
 
   <section>
     <h5>2018 - 2021</h5>
-    <p>{{ 'taltech' | translate }}</p>
-    <p>{{ 'informatics' | translate }}</p>
+    <h4>{{ 'taltech' | translate }}</h4>
+    <h5>{{ 'informatics' | translate }}</h5>
     <p>{{ 'thesis' | translate }}</p>
   </section>
 
   <section>
     <h5>2017 - 2018</h5>
-    <p>{{ 'ut' | translate }}</p>
-    <p>{{ 'mathematics' | translate }}</p>
-    <p>{{ 'disclaimer' | translate }}</p>
-  </section>
-</section> -->
-
-<section>
-  <h1>{{'education' | translate}}</h1>
-
-  <section>
-    <h4>2018 - 2021</h4>
-    <h5>{{ 'taltech' | translate }}</h5>
-    <h6>{{ 'informatics' | translate }}</h6>
-    <p>{{ 'thesis' | translate }}</p>
-  </section>
-
-  <section>
-    <h4>2017 - 2018</h4>
-    <h5>{{ 'ut' | translate }}</h5>
-    <h6>{{ 'mathematics' | translate }}</h6>
+    <h4>{{ 'ut' | translate }}</h4>
+    <h5>{{ 'mathematics' | translate }}</h5>
     <p>{{ 'disclaimer' | translate }}</p>
   </section>
 </section>
@@ -87,18 +76,13 @@
 <section>
   <h1>{{ 'skills' | translate }}</h1>
 
-  <p>Java, Python, Javascript, HTML, CSS</p>
-  <p>SQL, Postman, Selenium, Git</p>
+  <p>Kotlin, Java</p>
+  <p>SQL, Postman, Git, Bash</p>
 
-  <!-- <button class="accordion" (click)="openAccordion($event)">Expand for more information <i class="fa fa-solid fa-angle-down"></i></button>
-  <div class="panel">
-    <p>{{ 'theActualSkills' | translate }}</p>
-  </div> -->
-
-  <details>
+  <!-- <details>
     <summary>{{ 'expand' | translate }} </summary>
-    <p [innerHTML]="'theActualSkills' | translate"></p>
-  </details>
+    <p [innerHTML]="'the_actual_skills' | translate"></p>
+  </details> -->
 
 </section>
 

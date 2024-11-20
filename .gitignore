@@ -44,3 +44,7 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+# HTML for PDFs
+siret_jorro_resume_en.html
+siret_jorro_resume_et.html
